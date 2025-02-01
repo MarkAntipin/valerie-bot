@@ -16,7 +16,7 @@ async def find_place_handler(update: Update, _: ContextTypes.DEFAULT_TYPE) -> No
     if len(update.message.text) > max_length:
         await send_message(
             message=update.message,
-            text=f"Your request is too long. Can you limit your message to {max_length} symbols, please"
+            text=f"Your request is too long\\. Can you limit your message to {max_length} symbols, please"
         )
         return
 
