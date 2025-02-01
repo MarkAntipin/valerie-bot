@@ -40,5 +40,6 @@ class BotSettings(BaseSettings):
     class Config:
         case_sensitive = False
 
+max_length = 500
 
 bot_settings = BotSettings()
