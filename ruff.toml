@@ -7,7 +7,7 @@
 # Warning (W)
 # flake8-print (T20)
 # flake8-annotations (ANN)
-select = [
+lint.select = [
     "F",
     "E",
     "B",
@@ -19,10 +19,10 @@ select = [
     "ANN",
 ]
 
-ignore = ["B008", "ANN401"]
+lint.ignore = ["B008", "ANN401"]
 
 line-length = 120
 
 target-version = "py311"
 
-unfixable = []
+lint.unfixable = []
